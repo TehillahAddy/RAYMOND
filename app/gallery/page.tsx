@@ -7,7 +7,7 @@ export default function GalleryPage() {
     { type: "video", src: "/images/vid.mp4", alt: "Raymond speaking" },
     { type: "image", src: "/images/2.jpeg", alt: "Raymond smiling" },
     { type: "image", src: "/images/3.jpeg", alt: "Raymond with family" },
-    { type: "video", src: "/images/vid1.mp4", alt: "Raymond with friends" },
+    { type: "video", src: "/images/call.mp4", alt: "Raymond with friends" },
     { type: "image", src: "/images/4.jpeg", alt: "Raymond walking" },
     { type: "image", src: "/images/5.jpeg", alt: "Raymond in conversation" },
     { type: "image", src: "/images/6.jpeg", alt: "Raymond at church event" },
@@ -33,7 +33,6 @@ export default function GalleryPage() {
     { type: "image", src: "/images/dr1.jpeg", alt: "Raymond candid moment" },
     { type: "image", src: "/images/dru.jpeg", alt: "Raymond portrait" },
     { type: "image", src: "/images/elf.jpeg", alt: "Raymond walking" },
-    { type: "video", src: "/images/vid4.mp4", alt: "Raymond laughing" },
     { type: "image", src: "/images/fly.jpeg", alt: "Raymond in conversation" },
     { type: "image", src: "/images/fri.jpeg", alt: "Raymond at church event" },
     { type: "image", src: "/images/gij.jpeg", alt: "Raymond laughing" },
@@ -129,8 +128,8 @@ export default function GalleryPage() {
                   <Image
                       src="/images/logs.png"
                     alt="Lionheart Tech Logo"
-                    width={23}
-                    height={23}
+                    width={49}
+                    height={49}
                     className="rounded-sm"
                   />
                 </a>

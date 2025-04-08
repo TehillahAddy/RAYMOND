@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function TributePage() {
   return (
-   
+
     <div className="min-h-screen bg-gradient-to-br from-[#f7f7f7] via-[#e4e9ec] to-white text-gray-900 font-sans">
       <div className="relative h-[280px] sm:h-[400px] w-full overflow-hidden">
         <Image
-            src="/images/IMG_1479.jpg"
+          src="/images/IMG_1479.jpg"
           alt="Raymond Nii Antie Orleans Addy"
           layout="fill"
           objectFit="cover"
@@ -16,7 +16,8 @@ export default function TributePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent" />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
-          <h1 className="text-4xl sm:text-6xl font-serif font-bold">In Loving Memory of Raymond Nii Antie Orleans Addy</h1>
+          <h1 className="text-4xl sm:text-6xl font-serif font-bold">Tributes</h1>
+          <p className="text-base sm:text-lg mt-2 font-light">Words of love from those whose lives he touched</p>
         </div>
       </div>
 
@@ -165,7 +166,7 @@ export default function TributePage() {
         {/* Image after Tribute by Victory Presbyterian Church School Class of 2008 */}
         <div className="rounded overflow-hidden shadow-md">
           <Image
-            src="/images/vpcs-image.jpg"
+            src="/images/vic.jpeg"
             alt="Raymond Addy with VPCS Class of 2008"
             width={900}
             height={600}
@@ -242,31 +243,31 @@ export default function TributePage() {
         </div>
       </main>
 
-      
-      
-            <footer className="bg-gray-50 border-t mt-16 py-6 px-4 text-center text-sm text-gray-500">
-              <p>
-                © {new Date().getFullYear()} In Loving Memory of Raymond Nii Antie Orleans Addy.
-              </p>
-              <div className="mt-2 flex items-center justify-center gap-2">
-                <span>Designed by</span>
-                <a
-                  href="https://lionheart-seven.vercel.app/contact"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
-                >
-                  Lionheart Tech
-                  <Image
-                      src="/images/logs.png"
-                    alt="Lionheart Tech Logo"
-                    width={23}
-                    height={23}
-                    className="rounded-sm"
-                  />
-                </a>
-              </div>
-            </footer>
+
+
+      <footer className="bg-gray-50 border-t mt-16 py-6 px-4 text-center text-sm text-gray-500">
+        <p>
+          © {new Date().getFullYear()} In Loving Memory of Raymond Nii Antie Orleans Addy.
+        </p>
+        <div className="mt-2 flex items-center justify-center gap-2">
+          <span>Designed by</span>
+          <a
+            href="https://lionheart-seven.vercel.app/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
+          >
+            Lionheart Tech
+            <Image
+              src="/images/logs.png"
+              alt="Lionheart Tech Logo"
+              width={49}
+              height={49}
+              className="rounded-sm"
+            />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

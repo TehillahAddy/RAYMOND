@@ -240,8 +240,8 @@ export default function HymnsPage() {
                         <Image
                             src="/images/logs.png"
                           alt="Lionheart Tech Logo"
-                          width={23}
-                          height={23}
+                          width={49}
+                          height={49}
                           className="rounded-sm"
                         />
                       </a>
