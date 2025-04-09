@@ -145,6 +145,7 @@ export default function Home() {
             className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
           >
             Lionheart Tech
+            </a>
             <a href="https://drive.google.com/file/d/1gsSjwnrh0v2e1_p0lsZdofhty0TsCcKQ/view?usp=sharing"  target="_blank" rel="noopener noreferrer">
               <Image
                 src="/images/logs.png"
@@ -153,8 +154,6 @@ export default function Home() {
                 height={49}
                 className="rounded-sm cursor-pointer"
               />
-            </a>
-
           </a>
         </div>
       </footer>

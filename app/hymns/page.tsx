@@ -255,15 +255,15 @@ export default function HymnsPage() {
                         className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
                     >
                         Lionheart Tech
-                        <a href="https://drive.google.com/file/d/1Ze3D24o4VkXDn0lv043M25nsTawcjMcH/view?usp=sharing " target="_blank" rel="noopener noreferrer">
-                            <Image
-                                src="/images/logs.png"
-                                alt="Lionheart Tech Logo"
-                                width={49}
-                                height={49}
-                                className="rounded-sm cursor-pointer"
-                            />
-                        </a>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Ze3D24o4VkXDn0lv043M25nsTawcjMcH/view?usp=sharing " target="_blank" rel="noopener noreferrer">
+                        <Image
+                            src="/images/logs.png"
+                            alt="Lionheart Tech Logo"
+                            width={49}
+                            height={49}
+                            className="rounded-sm cursor-pointer"
+                        />
                     </a>
                 </div>
             </footer >
