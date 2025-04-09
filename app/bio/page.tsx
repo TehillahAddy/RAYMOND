@@ -103,13 +103,16 @@ export default function BioPage() {
             rel="noopener noreferrer"
             className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
           >
+
             Lionheart Tech
+          </a>
+          <a href="https://drive.google.com/file/d/1BQixw6hBqGzvg66ktxqJ6VsOen2AEFhV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/logs.png"
               alt="Lionheart Tech Logo"
               width={49}
               height={49}
-              className="rounded-sm"
+              className="rounded-sm cursor-pointer"
             />
           </a>
         </div>

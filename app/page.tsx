@@ -145,13 +145,16 @@ export default function Home() {
             className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
           >
             Lionheart Tech
-            <Image
-              src="/images/logs.png"
-              alt="Lionheart Tech Logo"
-              width={49}
-              height={49}
-              className="rounded-sm"
-            />
+            <a href="https://drive.google.com/file/d/1gsSjwnrh0v2e1_p0lsZdofhty0TsCcKQ/view?usp=sharing"  target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/logs.png"
+                alt="Lionheart Tech Logo"
+                width={49}
+                height={49}
+                className="rounded-sm cursor-pointer"
+              />
+            </a>
+
           </a>
         </div>
       </footer>

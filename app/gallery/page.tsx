@@ -146,12 +146,14 @@ export default function GalleryPage() {
             className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
           >
             Lionheart Tech
+          </a>
+          <a href="https://drive.google.com/file/d/17Lvae1rFgRx1akJDdeXoipFDOSN_EeBY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/logs.png"
               alt="Lionheart Tech Logo"
               width={49}
               height={49}
-              className="rounded-sm"
+              className="rounded-sm cursor-pointer"
             />
           </a>
         </div>
