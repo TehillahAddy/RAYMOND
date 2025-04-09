@@ -28,14 +28,19 @@ export default function Home() {
       {/* Navbar */}
       <nav className="bg-white shadow-sm px-6 py-3 flex justify-center sm:justify-between items-center border-b sticky top-0 z-10">
         <Link href="/" className="text-xl font-semibold font-serif text-gray-700 hidden sm:block">
-          Forever Raymond
+          Forever LOVED!
         </Link>
-        <ul className="flex gap-4 sm:gap-6 text-sm sm:text-base text-gray-700 font-medium">
-          <li><Link href="/" className="hover:text-blue-500 transition">Home</Link></li>
-          <li><Link href="/bio" className="hover:text-blue-500 transition">Bio</Link></li>
+        <ul className="nav-underline flex gap-4 sm:gap-6 text-base sm:text-lg text-gray-700 font-medium font-serif">
+          <li><Link href="/" className="transition">Home</Link></li>
+          <li>|</li>
+          <li><Link href="/bio" className="transition">Bio</Link></li>
+          <li>|</li>
           <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
+          <li>|</li>
           <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
+          <li>|</li>
           <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
+          <li>|</li>
           <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
         </ul>
       </nav>
@@ -108,6 +113,24 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <section className="bg-gray-50 py-12 px-6 sm:px-12 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 font-serif mb-4">
+            HEARTFELT APPRECIATION
+          </h2>
+          <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+            The entire family of the late <span className="font-medium">Raymond Nii Antie Orleans Addy</span> wish to express our heartfelt gratitude
+            to all friends and sympathizers for their time, prayer support, words of encouragement, donations,
+            and presence during our bereavement.
+          </p>
+          <p className="text-gray-700 text-base sm:text-lg mt-4 leading-relaxed">
+            We are extra grateful.
+          </p>
+          <p className="text-gray-800 font-medium mt-6 italic">
+            May the Almighty God richly bless you.
+          </p>
+        </div>
+      </section>
 
       <footer className="bg-gray-50 border-t mt-16 py-6 px-4 text-center text-sm text-gray-500">
         <p>
@@ -123,7 +146,7 @@ export default function Home() {
           >
             Lionheart Tech
             <Image
-                src="/images/logs.png"
+              src="/images/logs.png"
               alt="Lionheart Tech Logo"
               width={49}
               height={49}

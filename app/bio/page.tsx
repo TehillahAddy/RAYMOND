@@ -20,16 +20,27 @@ export default function BioPage() {
         </div>
       </div>
 
+      <nav className="bg-white shadow-sm px-6 py-3 flex justify-center sm:justify-between items-center border-b sticky top-0 z-10">
+        <Link href="/" className="text-xl font-semibold font-serif text-gray-700 hidden sm:block">
+          Forever LOVED!
+        </Link>
+        <ul className="nav-underline flex gap-4 sm:gap-6 text-base sm:text-lg text-gray-700 font-medium font-serif">
+          <li><Link href="/" className="transition">Home</Link></li>
+          <li>|</li>
+          <li><Link href="/bio" className="transition">Bio</Link></li>
+          <li>|</li>
+          <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
+          <li>|</li>
+          <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
+          <li>|</li>
+          <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
+          <li>|</li>
+          <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
+        </ul>
+      </nav>
+
       {/* Bio Content */}
       <main className="max-w-3xl mx-auto px-6 py-12 sm:px-8 animate-fadeIn space-y-10">
-        {/* Back Button */}
-        <Link
-          href="/"
-          className="inline-block text-sm text-blue-600 hover:underline transition duration-200"
-        >
-          ← Back to Home
-        </Link>
-
         {/* Bio Text */}
         <section className="space-y-4">
           <h2 className="text-2xl font-serif font-semibold border-b pb-2">Biography</h2>
@@ -70,6 +81,14 @@ export default function BioPage() {
             className="w-full h-auto object-cover"
           />
         </div>
+
+        {/* Back Button */}
+        <Link
+          href="/"
+          className="inline-block text-sm text-blue-600 hover:underline transition duration-200"
+        >
+          ← Back to Home
+        </Link>
       </main>
 
       <footer className="bg-gray-50 border-t mt-16 py-6 px-4 text-center text-sm text-gray-500">

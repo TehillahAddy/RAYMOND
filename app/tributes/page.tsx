@@ -21,15 +21,27 @@ export default function TributePage() {
         </div>
       </div>
 
+      <nav className="bg-white shadow-sm px-6 py-3 flex justify-center sm:justify-between items-center border-b sticky top-0 z-10">
+        <Link href="/" className="text-xl font-semibold font-serif text-gray-700 hidden sm:block">
+          Forever LOVED!
+        </Link>
+        <ul className="nav-underline flex gap-4 sm:gap-6 text-base sm:text-lg text-gray-700 font-medium font-serif">
+          <li><Link href="/" className="transition">Home</Link></li>
+          <li>|</li>
+          <li><Link href="/bio" className="transition">Bio</Link></li>
+          <li>|</li>
+          <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
+          <li>|</li>
+          <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
+          <li>|</li>
+          <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
+          <li>|</li>
+          <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
+        </ul>
+      </nav>
+
       {/* Tributes */}
       <main className="max-w-3xl mx-auto px-6 py-12 sm:px-8 animate-fadeIn space-y-10">
-        {/* Back Button */}
-        <Link
-          href="/"
-          className="inline-block text-sm text-blue-600 hover:underline transition duration-200"
-        >
-          ← Back to Home
-        </Link>
         {/* Tribute by Father */}
         <section className="space-y-4">
           <h2 className="text-2xl font-serif font-semibold border-b pb-2">Tribute by Father</h2>
@@ -220,7 +232,40 @@ export default function TributePage() {
             Raymond was the quintessential protective sibling who always picked us up from school with a warm smile. He had a unique way of making our afternoons special, surprising us with pastries that he picked along the way. Those little gestures filled our days with joy and laughter.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Anything
+            Anything we have not heard from him in a while, Mummy will ask, &quot;Who has heard of
+            Raymond tell him to come home, or she will exclaim hey is Raymond there.&#39; Then we
+            will quickly call Ray to let him know Mummy wants to see him, within a day or two
+            Raymond will come to visit as it was always a joy to be with him, showing us various
+            electronic devices, he was a go-to person with those gadgets.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Beyond his role as the friendly older brother, Raymond had an incredible talent that
+            many didn’t know about—he was a gifted pencil artist. He often downplayed this skill,
+            allowing everyone to believe that his true passion lay in drumming. When we were
+            younger, while we slept soundly in our beds, he would be awake and quietly sketching
+            and painting in the dim light of his room. As the curious baby sister, I caught him in the
+            act more than once. My excitement got the better of me, and I shared my discovery with
+            our mother, who encouraged him to showcase his artistry. He took her encouragement
+            seriously, and his passion slowly blossomed, leading to opportunities that, admittedly,
+            got him some funds, Ray made us enjoy some of his earnings by giving us a treat
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Raymond continually expressed how proud he was of me and often teasingly mentioned
+            how he and Kojo (junior brother) would be keeping an eye on potential husbands in the
+            future. Whenever we faced challenges or felt lost, as growing adults we always turned
+            to Big Brother Raymond it’s therefore heart-wrenching to think that these precious
+            memories are now tinged with sorrow.
+            Ray, our big brother, we love you but God loves you more and has called you to your
+            heavenly home. You will forever have a special place in our hearts. We promise to make
+            you proud by staying focused on our call. The love you have for everyone around you
+            will continue to be celebrated, even in your absence. It’s with a heavy heart that we say
+            goodbye, big bro. Ray,
+
+            Raymond Sleep well in the bosom of your maker where there is no pain, till we meet
+            again at Jesus&#39; feet.
+            Mama Nicho, Debbie, Kojo, Paul, Elorm the list goes on and on. We shall greatly miss
+            you.
+            FARE THEE WELL Ray. Rest in perfect peace. Amen.
           </p>
         </section>
         {/* Closing Remarks */}
@@ -241,6 +286,13 @@ export default function TributePage() {
             className="w-full h-auto object-cover"
           />
         </div>
+        {/* Back Button */}
+        <Link
+          href="/"
+          className="inline-block text-sm text-blue-600 hover:underline transition duration-200"
+        >
+          ← Back to Home
+        </Link>
       </main>
 
 
