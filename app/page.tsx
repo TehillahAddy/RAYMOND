@@ -26,24 +26,26 @@ export default function Home() {
       </div>
 
       {/* Navbar */}
-      <nav className="bg-white shadow-sm px-6 py-3 flex justify-center sm:justify-between items-center border-b sticky top-0 z-10">
+      <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex flex-wrap justify-center sm:justify-between items-center border-b sticky top-0 z-10">
         <Link href="/" className="text-xl font-semibold font-serif text-gray-700 hidden sm:block">
           Forever LOVED!
         </Link>
-        <ul className="nav-underline flex gap-4 sm:gap-6 text-base sm:text-lg text-gray-700 font-medium font-serif">
+
+        <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 sm:gap-x-6 text-sm sm:text-lg text-gray-700 font-medium font-serif text-center">
           <li><Link href="/" className="transition">Home</Link></li>
-          <li>|</li>
+          <li className="hidden sm:block">|</li>
           <li><Link href="/bio" className="transition">Bio</Link></li>
-          <li>|</li>
+          <li className="hidden sm:block">|</li>
           <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
-          <li>|</li>
+          <li className="hidden sm:block">|</li>
           <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
-          <li>|</li>
+          <li className="hidden sm:block">|</li>
           <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
-          <li>|</li>
+          <li className="hidden sm:block">|</li>
           <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
         </ul>
       </nav>
+
 
       {/* Content */}
       <main className="max-w-4xl mx-auto px-6 py-12 sm:px-12 space-y-16">
@@ -145,15 +147,15 @@ export default function Home() {
             className="flex items-center gap-1 text-blue-500 hover:underline font-medium"
           >
             Lionheart Tech
-            </a>
-            <a href="https://drive.google.com/file/d/1gsSjwnrh0v2e1_p0lsZdofhty0TsCcKQ/view?usp=sharing"  target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/images/logs.png"
-                alt="Lionheart Tech Logo"
-                width={49}
-                height={49}
-                className="rounded-sm cursor-pointer"
-              />
+          </a>
+          <a href="https://drive.google.com/file/d/1gsSjwnrh0v2e1_p0lsZdofhty0TsCcKQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/images/logs.png"
+              alt="Lionheart Tech Logo"
+              width={49}
+              height={49}
+              className="rounded-sm cursor-pointer"
+            />
           </a>
         </div>
       </footer>
