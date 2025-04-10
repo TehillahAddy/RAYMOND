@@ -21,11 +21,12 @@ export default function TributePage() {
         </div>
       </div>
 
-      <nav className="bg-white shadow-sm px-6 py-3 flex justify-center sm:justify-between items-center border-b sticky top-0 z-10">
-        <Link href="/" className="text-xl font-semibold font-serif text-gray-700 hidden sm:block">
+      <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex flex-col sm:flex-row justify-center sm:justify-between items-center border-b sticky top-0 z-10">
+        <Link href="/" className="text-xl font-semibold font-serif text-gray-700 mb-2 sm:mb-0">
           Forever LOVED!
         </Link>
-        <ul className="nav-underline flex gap-4 sm:gap-6 text-base sm:text-lg text-gray-700 font-medium font-serif">
+
+        <ul className="flex flex-wrap justify-center gap-x-2 gap-y-2 text-sm sm:text-lg text-gray-700 font-medium font-serif text-center">
           <li><Link href="/" className="transition">Home</Link></li>
           <li>|</li>
           <li><Link href="/bio" className="transition">Bio</Link></li>
@@ -39,6 +40,7 @@ export default function TributePage() {
           <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
         </ul>
       </nav>
+
 
       {/* Tributes */}
       <main className="max-w-3xl mx-auto px-6 py-12 sm:px-8 animate-fadeIn space-y-10">

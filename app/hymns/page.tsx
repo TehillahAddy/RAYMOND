@@ -20,26 +20,26 @@ export default function HymnsPage() {
                     <p className="text-base sm:text-lg mt-2 font-light">Songs of comfort and inspiration</p>
                 </div>
             </div>
-
-            <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex flex-wrap justify-center sm:justify-between items-center border-b sticky top-0 z-10">
-                <Link href="/" className="text-xl font-semibold font-serif text-gray-700 hidden sm:block">
+            <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex flex-col sm:flex-row justify-center sm:justify-between items-center border-b sticky top-0 z-10">
+                <Link href="/" className="text-xl font-semibold font-serif text-gray-700 mb-2 sm:mb-0">
                     Forever LOVED!
                 </Link>
 
-                <ul className="flex flex-wrap justify-center gap-x-4 gap-y-2 sm:gap-x-6 text-sm sm:text-lg text-gray-700 font-medium font-serif text-center">
+                <ul className="flex flex-wrap justify-center gap-x-2 gap-y-2 text-sm sm:text-lg text-gray-700 font-medium font-serif text-center">
                     <li><Link href="/" className="transition">Home</Link></li>
-                    <li className="hidden sm:block">|</li>
+                    <li>|</li>
                     <li><Link href="/bio" className="transition">Bio</Link></li>
-                    <li className="hidden sm:block">|</li>
+                    <li>|</li>
                     <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
-                    <li className="hidden sm:block">|</li>
+                    <li>|</li>
                     <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
-                    <li className="hidden sm:block">|</li>
+                    <li>|</li>
                     <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
-                    <li className="hidden sm:block">|</li>
+                    <li>|</li>
                     <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
                 </ul>
             </nav>
+
 
 
             {/* Main Content */}
