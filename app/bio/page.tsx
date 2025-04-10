@@ -20,24 +20,26 @@ export default function BioPage() {
         </div>
       </div>
 
-      <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex flex-col sm:flex-row justify-center sm:justify-between items-center border-b sticky top-0 z-10">
-  <Link href="/" className="text-xl font-semibold font-serif text-gray-700 mb-2 sm:mb-0">
+      <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex justify-between items-center border-b sticky top-0 z-10">
+  <Link href="/" className="text-lg sm:text-xl font-semibold font-serif text-gray-700 whitespace-nowrap">
     Forever LOVED!
   </Link>
 
-  <ul className="flex flex-wrap justify-center gap-x-2 gap-y-2 text-sm sm:text-lg text-gray-700 font-medium font-serif text-center">
-    <li><Link href="/" className="transition">Home</Link></li>
-    <li>|</li>
-    <li><Link href="/bio" className="transition">Bio</Link></li>
-    <li>|</li>
-    <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
-    <li>|</li>
-    <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
-    <li>|</li>
-    <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
-    <li>|</li>
-    <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
-  </ul>
+  <div className="overflow-x-auto max-w-full">
+    <ul className="flex items-center gap-3 sm:gap-5 text-sm sm:text-base text-gray-700 font-medium font-serif whitespace-nowrap">
+      <li><Link href="/" className="transition">Home</Link></li>
+      <li>|</li>
+      <li><Link href="/bio" className="transition">Bio</Link></li>
+      <li>|</li>
+      <li><Link href="/tributes" className="hover:text-blue-500 transition">Tributes</Link></li>
+      <li>|</li>
+      <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
+      <li>|</li>
+      <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
+      <li>|</li>
+      <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
+    </ul>
+  </div>
 </nav>
 
 
