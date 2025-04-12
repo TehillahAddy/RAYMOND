@@ -40,7 +40,6 @@ export default function MemoriesPage() {
           <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
         </ul>
       </nav>
-      {/* Content */}
       <main className="max-w-3xl mx-auto px-6 py-12 sm:px-8 animate-fadeIn space-y-10">
         <section className="space-y-6">
           <h2 className="text-2xl font-serif font-semibold border-b pb-2">Share a Memory</h2>

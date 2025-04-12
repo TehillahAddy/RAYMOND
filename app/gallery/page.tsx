@@ -89,8 +89,6 @@ export default function GalleryPage() {
           <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
           <li>|</li>
           <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
-          <li>|</li>
-          <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
         </ul>
       </nav>
       {/* Content */}

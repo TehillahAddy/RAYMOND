@@ -21,7 +21,7 @@ export default function TributePage() {
         </div>
       </div>
 
-      
+
       <nav className="bg-white shadow-sm px-4 sm:px-6 py-3 flex flex-col sm:flex-row justify-center sm:justify-between items-center border-b sticky top-0 z-10">
         <Link href="/" className="text-xl font-semibold font-serif text-gray-700 mb-2 sm:mb-0">
           Forever LOVED!
@@ -37,8 +37,6 @@ export default function TributePage() {
           <li><Link href="/hymns" className="hover:text-blue-500 transition">Hymns</Link></li>
           <li>|</li>
           <li><Link href="/gallery" className="hover:text-blue-500 transition">Gallery</Link></li>
-          <li>|</li>
-          <li><Link href="/memories" className="hover:text-blue-500 transition">Memories</Link></li>
         </ul>
       </nav>
 
@@ -295,6 +293,35 @@ export default function TributePage() {
         >
           ← Back to Home
         </Link>
+      </main>
+
+
+      <main className="max-w-3xl mx-auto px-6 py-12 sm:px-8 animate-fadeIn space-y-10">
+        <section className="space-y-6">
+          <h2 className="text-2xl font-serif font-semibold border-b pb-2">Share a Memory</h2>
+          <p className="text-gray-700 leading-relaxed">
+            If you have a story, prayer, tribute, or moment to share about Raymond, we welcome you to write it below.
+            Your words will help preserve his legacy and bring comfort to all who loved him.
+          </p>
+
+          <form className="space-y-4">
+            <input
+              type="text"
+              placeholder="Your name"
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+            <textarea
+              placeholder="Write your memory..."
+              className="w-full px-4 py-2 border rounded h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+            <button
+              type="submit"
+              className="bg-indigo-600 text-white font-semibold px-6 py-2 rounded hover:bg-indigo-700 transition"
+            >
+              Submit
+            </button>
+          </form>
+        </section>
       </main>
 
 
